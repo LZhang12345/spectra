@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="410" viewBox="0 0 1440 410" role="img" aria-labelledby="title desc">
+  <title id="title">SPECTRA: Revealing the Full Spectrum of LLM-Internal Preference Distributions</title>
+  <desc id="desc">A Findings of EACL 2027 paper. A schematic contrasts a short decoded list with a full distribution over preference categories read from a language model.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#111c35"/>
+      <stop offset="1" stop-color="#182b44"/>
+    </linearGradient>
+    <linearGradient id="spectrum" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#8af0b9"/>
+      <stop offset="1" stop-color="#2fb7a0"/>
+    </linearGradient>
+    <linearGradient id="tail" x1="0" x2="1">
+      <stop offset="0" stop-color="#8b8bfa" stop-opacity="0"/>
+      <stop offset="1" stop-color="#8b8bfa" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  <rect width="1440" height="410" rx="24" fill="url(#background)"/>
+  <circle cx="1320" cy="20" r="260" fill="#59cabe" opacity="0.035"/>
+  <circle cx="1100" cy="440" r="250" fill="#8b8bfa" opacity="0.045"/>
+  <rect x="60" y="42" width="246" height="32" rx="16" fill="#223c4a" stroke="#42675f"/>
+  <text x="183" y="63" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#9ce6cc" text-anchor="middle" letter-spacing="1.5">FINDINGS OF EACL 2027</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="60" y="150" font-size="76" font-weight="800" fill="#ffffff" letter-spacing="3">SPECTRA</text>
+    <text x="60" y="204" font-size="27" font-weight="600" fill="#d7e2f0">Revealing the Full Spectrum of</text>
+    <text x="60" y="240" font-size="27" font-weight="600" fill="#d7e2f0">LLM-Internal Preference Distributions</text>
+    <text x="60" y="300" font-size="19" fill="#9fb2c9">Read a probability for every preference category from a fine-tuned LLM's</text>
+    <text x="60" y="328" font-size="19" fill="#9fb2c9">token logits, instead of decoding a short ranked list.</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="760" y="92" font-size="14" font-weight="700" fill="#8fa3bd" letter-spacing="1.2">DECODED LIST</text>
+    <rect x="760" y="108" width="170" height="40" rx="10" fill="#22344f" stroke="#3a516f"/>
+    <text x="778" y="134" font-size="17" fill="#e6eef8">1. Drama</text>
+    <rect x="760" y="158" width="170" height="40" rx="10" fill="#22344f" stroke="#3a516f"/>
+    <text x="778" y="184" font-size="17" fill="#e6eef8">2. Comedy</text>
+    <rect x="760" y="208" width="170" height="40" rx="10" fill="#22344f" stroke="#3a516f"/>
+    <text x="778" y="234" font-size="17" fill="#e6eef8">3. Action</text>
+    <rect x="760" y="258" width="170" height="40" rx="10" fill="none" stroke="#3a516f" stroke-dasharray="5 5"/>
+    <text x="778" y="284" font-size="15" fill="#6f84a0">everything else: 0</text>
+    <text x="968" y="209" font-size="16" font-weight="700" fill="#5ce0d0" text-anchor="middle">vs</text>
+    <text x="1010" y="92" font-size="14" font-weight="700" fill="#9ce6cc" letter-spacing="1.2">SPECTRA DISTRIBUTION</text>
+    <rect x="1258" y="104" width="149" height="200" rx="8" fill="url(#tail)"/>
+    <rect x="1010" y="110.0" width="15" height="190.0" rx="3" fill="url(#spectrum)" opacity="0.95"/>
+    <rect x="1031" y="227.2" width="15" height="72.8" rx="3" fill="url(#spectrum)" opacity="0.95"/>
+    <rect x="1052" y="266.0" width="15" height="34.0" rx="3" fill="url(#spectrum)" opacity="0.95"/>
+    <rect x="1073" y="270.9" width="15" height="29.1" rx="3" fill="url(#spectrum)" opacity="0.95"/>
+    <rect x="1094" y="278.0" width="15" height="22.0" rx="3" fill="url(#spectrum)" opacity="0.95"/>
+    <rect x="1115" y="273.0" width="15" height="27.0" rx="3" fill="url(#spectrum)" opacity="0.95"/>
+    <rect x="1136" y="275.7" width="15" height="24.3" rx="3" fill="url(#spectrum)" opacity="0.95"/>
+    <rect x="1157" y="262.9" width="15" height="37.1" rx="3" fill="url(#spectrum)" opacity="0.95"/>
+    <rect x="1178" y="291.0" width="15" height="9.0" rx="3" fill="url(#spectrum)" opacity="0.95"/>
+    <rect x="1199" y="294.0" width="15" height="6.0" rx="3" fill="url(#spectrum)" opacity="0.95"/>
+    <rect x="1220" y="267.7" width="15" height="32.3" rx="3" fill="url(#spectrum)" opacity="0.95"/>
+    <rect x="1241" y="292.3" width="15" height="7.7" rx="3" fill="url(#spectrum)" opacity="0.95"/>
+    <rect x="1262" y="292.4" width="15" height="7.6" rx="3" fill="url(#spectrum)" opacity="1"/>
+    <rect x="1283" y="275.8" width="15" height="24.2" rx="3" fill="url(#spectrum)" opacity="1"/>
+    <rect x="1304" y="294.0" width="15" height="6.0" rx="3" fill="url(#spectrum)" opacity="1"/>
+    <rect x="1325" y="289.5" width="15" height="10.5" rx="3" fill="url(#spectrum)" opacity="1"/>
+    <rect x="1346" y="224.1" width="15" height="75.9" rx="3" fill="url(#spectrum)" opacity="1"/>
+    <rect x="1367" y="285.2" width="15" height="14.8" rx="3" fill="url(#spectrum)" opacity="1"/>
+    <rect x="1388" y="247.6" width="15" height="52.4" rx="3" fill="url(#spectrum)" opacity="1"/>
+    <path d="M1004 301 H1409" stroke="#3a516f" stroke-width="2"/>
+    <text x="1010" y="330" font-size="14" fill="#8fa3bd">head categories</text>
+    <text x="1405" y="330" font-size="14" fill="#b9b9ff" text-anchor="end">long tail</text>
+  </g>
+  <text x="60" y="378" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#c7d3e3">Luyang Zhang · Jialu Wang · Shichao Zhu · Beibei Li · Zhongcun Wang · Guangmou Pan · Yang Song</text>
+</svg>

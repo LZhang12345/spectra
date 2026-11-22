@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If this code is useful in your work, please cite our paper."
+title: "SPECTRA: Revealing the Full Spectrum of LLM-Internal Preference Distributions"
+type: software
+license: MIT
+authors:
+  - family-names: Zhang
+    given-names: Luyang
+  - family-names: Wang
+    given-names: Jialu
+  - family-names: Zhu
+    given-names: Shichao
+  - family-names: Li
+    given-names: Beibei
+  - family-names: Wang
+    given-names: Zhongcun
+  - family-names: Pan
+    given-names: Guangmou
+  - family-names: Song
+    given-names: Yang
+preferred-citation:
+  type: conference-paper
+  title: "SPECTRA: Revealing the Full Spectrum of LLM-Internal Preference Distributions"
+  collection-title: "Findings of the Association for Computational Linguistics: EACL 2027"
+  year: 2027
+  authors:
+    - family-names: Zhang
+      given-names: Luyang
+    - family-names: Wang
+      given-names: Jialu
+    - family-names: Zhu
+      given-names: Shichao
+    - family-names: Li
+      given-names: Beibei
+    - family-names: Wang
+      given-names: Zhongcun
+    - family-names: Pan
+      given-names: Guangmou
+    - family-names: Song
+      given-names: Yang

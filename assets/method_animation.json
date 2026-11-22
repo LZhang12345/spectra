@@ -1,0 +1,16 @@
+{
+  "list_length": 5,
+  "decoded_list": [
+    "Drama",
+    "Comedy",
+    "Action",
+    "Thriller",
+    "Crime"
+  ],
+  "js_direct_generation": 0.344274,
+  "js_spectra": 0.009237,
+  "true_tail_mass": 0.307,
+  "direct_generation_tail_mass": 0.0,
+  "spectra_tail_mass": 0.278599,
+  "frames": 28
+}
