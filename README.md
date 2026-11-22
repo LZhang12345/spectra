@@ -9,12 +9,13 @@
 **[Luyang Zhang](https://scholar.google.com/citations?user=lIDmS7oAAAAJ&hl=en) · [Jialu Wang](https://scholar.google.com/citations?user=HOtDeN0AAAAJ&hl=en) · Shichao Zhu · Beibei Li · Zhongcun Wang · Guangmou Pan · Yang Song**<br>
 **Findings of EACL 2027**
 
-[![Venue](https://img.shields.io/badge/Findings%20of%20EACL-2027-6d5efc?style=flat-square)](#citation)
+[![Paper](https://img.shields.io/badge/arXiv-2509.24189-b31b1b?style=flat-square)](https://arxiv.org/abs/2509.24189)
+[![Venue](https://img.shields.io/badge/Findings%20of%20EACL-2027-6d5efc?style=flat-square)](https://arxiv.org/abs/2509.24189)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776ab?style=flat-square&logo=python&logoColor=white)](pyproject.toml)
 [![CPU tests](https://github.com/LZhang12345/spectra/actions/workflows/tests.yml/badge.svg)](https://github.com/LZhang12345/spectra/actions/workflows/tests.yml)
 [![License](https://img.shields.io/badge/License-MIT-19a98c?style=flat-square)](LICENSE)
 
-[Quick start](#quick-start) · [Method](#how-it-works) · [Use it in your code](#use-the-readout-in-your-code) · [Probe a model](#probe-a-language-model) · [Documentation](docs/method.md) · [Citation](#citation)
+[Paper](https://arxiv.org/abs/2509.24189) · [Quick start](#quick-start) · [Method](#how-it-works) · [Use it in your code](#use-the-readout-in-your-code) · [Probe a model](#probe-a-language-model) · [Documentation](docs/method.md) · [Citation](#citation)
 
 </div>
 
@@ -193,14 +194,17 @@ The tests check the score definition, both readouts, the hierarchical factorizat
 
 ## Citation
 
-If this code is useful in your work, please cite our paper:
+If this code is useful in your work, please cite our paper. The entry below is the arXiv version. We will replace it with the proceedings entry once it is published.
 
 ```bibtex
-@inproceedings{zhang2027spectra,
-  title={SPECTRA: Revealing the Full Spectrum of LLM-Internal Preference Distributions},
-  author={Zhang, Luyang and Wang, Jialu and Zhu, Shichao and Li, Beibei and Wang, Zhongcun and Pan, Guangmou and Song, Yang},
-  booktitle={Findings of the Association for Computational Linguistics: EACL 2027},
-  year={2027}
+@misc{zhang2025spectra,
+  title={SPECTRA: Revealing the Full Spectrum of User Preferences via Distributional LLM Inference},
+  author={Luyang Zhang and Jialu Wang and Shichao Zhu and Beibei Li and Zhongcun Wang and Guangmou Pan and Yang Song},
+  year={2025},
+  eprint={2509.24189},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  url={https://arxiv.org/abs/2509.24189}
 }
 ```
 

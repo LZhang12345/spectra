@@ -19,10 +19,11 @@ authors:
   - family-names: Song
     given-names: Yang
 preferred-citation:
-  type: conference-paper
-  title: "SPECTRA: Revealing the Full Spectrum of LLM-Internal Preference Distributions"
-  collection-title: "Findings of the Association for Computational Linguistics: EACL 2027"
-  year: 2027
+  type: article
+  title: "SPECTRA: Revealing the Full Spectrum of User Preferences via Distributional LLM Inference"
+  journal: "arXiv preprint arXiv:2509.24189"
+  year: 2025
+  url: "https://arxiv.org/abs/2509.24189"
   authors:
     - family-names: Zhang
       given-names: Luyang
